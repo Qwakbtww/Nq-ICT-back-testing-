@@ -30,3 +30,8 @@ validation passed: {'brute_force_trades': 500, 'brute_force_mismatches': 0, 'loo
   test 26 B-NYAM-X2+bias         n=   1 exp=   79.00 null%=54.1 (304s)
   test 27 B-ASIA-X1+bias         n=   1 exp=  -40.50 null%=0.0 (305s)
   test 28 B-ASIA-X2+bias         n=   1 exp=  -40.50 null%=0.0 (305s)
+  test 29 D-NYAM-X1+bias         n= 341 exp=   -2.15 null%=53.3 (339s)
+  test 30 D-NYAM-X2+bias         n= 341 exp=   -2.67 null%=42.1 (372s)
+  test 31 D-ASIA-X1+bias         n=  96 exp=    0.29 null%=71.0 (381s)
+  test 32 D-ASIA-X2+bias         n=  96 exp=   -0.93 null%=55.5 (390s)
+done in 402s

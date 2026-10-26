@@ -1,0 +1,22 @@
+{
+  "prereg_sha256": "4717ae4e8c244637fa9cd7d1b51d680512e654023951cc74fca3a9a4332578ad",
+  "validation": {
+    "brute_force_trades": 500,
+    "brute_force_mismatches": 0,
+    "lookahead_setups_checked": 5292,
+    "rule_check_A": 100,
+    "truncation_check_A": 20,
+    "rule_check_B": 100,
+    "truncation_check_B": 20,
+    "rule_check_D": 100,
+    "truncation_check_D": 20,
+    "charts_check_saved": 45
+  },
+  "data_first": "2019-05-05 22:03:00+00:00",
+  "data_last": "2026-10-23 20:59:00+00:00",
+  "is_oos_cutoff": "2024-07-27 11:42:12+00:00",
+  "n_tests": 40,
+  "expected_false_positives_at_0_05": 2.0,
+  "raw_p_below_0_05": 1,
+  "runtime_s": 402
+}
