@@ -1,0 +1,16 @@
+pre-registration hash OK: 4717ae4e8c244637fa9cd7d1b51d680512e654023951cc74fca3a9a4332578ad
+data 2019-05-05 22:03:00+00:00 -> 2026-10-23 20:59:00+00:00; IS/OOS cutoff 2024-07-27 11:42:12+00:00
+runs done: 3215 trades across 32 tests (9s)
+validation passed: {'brute_force_trades': 500, 'brute_force_mismatches': 0, 'lookahead_setups_checked': 5292, 'rule_check_A': 100, 'truncation_check_A': 20, 'rule_check_B': 100, 'truncation_check_B': 20, 'rule_check_D': 100, 'truncation_check_D': 20, 'charts_check_saved': 45} (70s)
+  test  1 A-NYAM-X1              n=  63 exp=   -0.36 null%=55.5 (77s)
+  test  2 A-NYAM-X2              n=  63 exp=    0.97 null%=63.0 (83s)
+  test  3 A-SBAM-X1              n=  12 exp=   26.75 null%=88.0 (84s)
+  test  4 A-SBAM-X2              n=  12 exp=   11.08 null%=74.1 (86s)
+  test  5 A-SBPM-X1              n=  12 exp=    2.88 null%=59.6 (87s)
+  test  6 A-SBPM-X2              n=  12 exp=    9.50 null%=77.0 (88s)
+  test  7 A-ASIA-X1              n=  19 exp=   13.58 null%=90.9 (91s)
+  test  8 A-ASIA-X2              n=  19 exp=    5.24 null%=74.9 (93s)
+  test  9 B-NYAM-X1              n=  16 exp=    4.47 null%=64.3 (94s)
+  test 10 B-NYAM-X2              n=  16 exp=   -6.47 null%=40.8 (96s)
+  test 11 B-ASIA-X1              n=   2 exp=    9.75 null%=58.4 (97s)
+  test 12 B-ASIA-X2              n=   2 exp=  -36.25 null%=5.7 (97s)
