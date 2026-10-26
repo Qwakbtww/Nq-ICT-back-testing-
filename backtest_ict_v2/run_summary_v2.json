@@ -1,0 +1,49 @@
+{
+  "prereg_sha256": "088fe751b81cd5bc35064f7c3462b80250f2d3f33e8522d5661f6378d664c80f",
+  "validation": {
+    "brute_force_trades": 500,
+    "brute_force_mismatches": 0,
+    "mutation_detected": 500,
+    "lookahead_setups_checked": 5713,
+    "rule_check_A1": 100,
+    "truncation_check_A1": 20,
+    "rule_check_A2": 100,
+    "truncation_check_A2": 20,
+    "rule_check_B": 100,
+    "truncation_check_B": 20,
+    "rule_check_D": 100,
+    "truncation_check_D": 20,
+    "charts_check_saved": 60
+  },
+  "data_first": "2019-05-05 22:03:00+00:00",
+  "data_last": "2026-10-23 20:59:00+00:00",
+  "is_oos_cutoff": "2024-07-27 11:42:12+00:00",
+  "n_tests": 32,
+  "expected_false_positives_at_0_05": 1.6,
+  "raw_p_below_0_05": 0,
+  "candidates": 0,
+  "signal_counts": {
+    "NYAM": {
+      "signals": 678,
+      "sweeps": 6226,
+      "invalidated": 4107,
+      "swing_too_old": 0,
+      "no_mss": 1181
+    },
+    "ASIA": {
+      "signals": 90,
+      "sweeps": 1272,
+      "invalidated": 801,
+      "swing_too_old": 0,
+      "no_mss": 352
+    },
+    "SBPM": {
+      "signals": 149,
+      "sweeps": 1332,
+      "invalidated": 948,
+      "swing_too_old": 0,
+      "no_mss": 187
+    }
+  },
+  "runtime_s": 298
+}
