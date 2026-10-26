@@ -14,6 +14,7 @@ Nothing is downloaded here. Fetch new data with the cost-checked, capped fetcher
 Usage:  python3 backtest_orb/forward_test.py
 """
 import glob
+import importlib.util
 import os
 import sys
 
@@ -24,8 +25,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 import orb_core as O                                        # noqa: E402  (adds the earlier study paths)
 import run_orb as RO                                        # noqa: E402
-sys.path.insert(0, os.path.join(ROOT, "backtest_ict_v2"))
-import forward_test as FV2                                  # noqa: E402  (load_raw, build_adjusted)
+
+# load backtest_ict_v2/forward_test.py by path (same file name as this script) for load_raw / build_adjusted
+_spec = importlib.util.spec_from_file_location("forward_test_v2", os.path.join(ROOT, "backtest_ict_v2", "forward_test.py"))
+FV2 = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(FV2)
 
 C = O.C
 FORWARD_START = np.datetime64("2026-10-24")
