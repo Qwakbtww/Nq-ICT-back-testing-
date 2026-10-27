@@ -1,0 +1,21 @@
+{
+  "prereg_sha256": "19ae71c7ec120b7e0c1ac5f18f68ab0d8413db3af5f3cd2ef8829cd55ee63f06",
+  "validation": {
+    "brute_force_trades": 500,
+    "brute_force_mismatches": 0,
+    "mutation_detected": 500,
+    "lookahead_trades_checked": 41548,
+    "rule_check_days": 115,
+    "truncation_days": 20,
+    "charts_check_saved": 30
+  },
+  "data_first": "2019-05-05 22:03:00+00:00",
+  "data_last": "2026-10-23 20:59:00+00:00",
+  "is_oos_cutoff": "2024-07-27 11:42:12+00:00",
+  "candidate_days": 1929,
+  "n_tests": 24,
+  "expected_false_positives_at_0_05": 1.2,
+  "raw_p_below_0_05": 12,
+  "candidates": 6,
+  "runtime_s": 2296
+}
